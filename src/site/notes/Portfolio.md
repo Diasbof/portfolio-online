@@ -22,11 +22,12 @@ _Découvrez ci-dessous mes derniers audits et architectures  :_
 
 Extrait de code
 
-```
-TABLE statut as "État", date as "Date", technologies as "Stack Technique"
-WHERE type = "projet-pro"
-SORT date DESC
-```
+| File                                                                                                | État    | Date           | Stack Technique                                                              |
+| --------------------------------------------------------------------------------------------------- | ------- | -------------- | ---------------------------------------------------------------------------- |
+| [[Pentest Active Directory - Occitanie-IT\|Pentest Active Directory - Occitanie-IT]]             | Terminé | May 15, 2024   | \-                                                                           |
+| [[Architecture et Securisation Active Directory\|Architecture et Securisation Active Directory]] | Terminé | April 15, 2024 | Windows Server, Ubuntu, Active Directory, GPO, PingCastle, Wazuh, VirusTotal |
+
+{ .block-language-dataview}
 
 ## 📫 Me Contacter
 
