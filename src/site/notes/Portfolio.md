@@ -5,7 +5,7 @@
 # Thomas Baudias | Portfolio Cybersécurité
 
 > [!info] À propos de moi 
-> Étudiant en cybersécurité à la Guardia Cybersecurity School, je suis passionné par la protection des infrastructures et l'analyse des menaces. Mon approche s'oriente vers la philosophie **Purple Team** : comprendre les méthodes d'attaque (Red Team) pour mieux architecturer la défense et la supervision (Blue Team). Ce portfolio documente mon apprentissage continu, mes laboratoires et mes projets pratiques.
+> A la recherche d'une alternance en cybersécurité (Titre AIS), je suis passionné par la protection des infrastructures et l'analyse des menaces. Mon approche s'oriente vers la philosophie **Purple Team** : comprendre les méthodes d'attaque (Red Team) pour mieux architecturer la défense et la supervision (Blue Team). Ce portfolio documente mon apprentissage continu, mes laboratoires et mes projets pratiques.
 
 ## 🛠️ Compétences Techniques
 
