@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/architecture-et-securisation-active-directory/","tags":["gardenEntry"]}
 ---
 
-
 # 🛡️ Architecture, Durcissement et Supervision d'Infrastructure (SIEM) : Occitanie-IT
 
 ## 📋 1. Contexte du Projet et Enjeux
