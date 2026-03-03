@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/architecture-et-securisation-active-directory/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/architecture-et-securisation-active-directory/"}
 ---
 
 # 🛡️ Architecture, Durcissement et Supervision d'Infrastructure (SIEM) : Occitanie-IT
