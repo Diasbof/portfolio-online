@@ -18,7 +18,7 @@
 
 ## 🚀 Mes Projets Techniques
 
-_Découvrez ci-dessous mes derniers audits et architectures (le tableau se met à jour automatiquement) :_
+_Découvrez ci-dessous mes derniers audits et architectures  :_
 
 Extrait de code
 
