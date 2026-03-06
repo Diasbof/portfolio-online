@@ -31,6 +31,10 @@ Extrait de code
 ## 📚 Ma Base de Connaissances
 | File                                                                           | État                     | Mise à jour  |
 | ------------------------------------------------------------------------------ | ------------------------ | ------------ |
+| [[Wiki/Durcissement avec Microsoft LAPS\|Durcissement avec Microsoft LAPS]] | Terminé                  | May 24, 2024 |
+| [[Wiki/Le SIEM et l'Active Response\|Le SIEM et l'Active Response]]         | Terminé                  | May 23, 2024 |
+| [[Wiki/Comprendre l'attaque DCSync\|Comprendre l'attaque DCSync]]           | Terminé                  | May 22, 2024 |
+| [[Wiki/Empoisonnement LLMNR et NBT-NS\|Empoisonnement LLMNR et NBT-NS]]     | Terminé                  | May 21, 2024 |
 | [[Wiki/Comprendre et Exploiter Kerberos\|Comprendre et Exploiter Kerberos]] | En cours d'apprentissage | May 20, 2024 |
 
 { .block-language-dataview}
