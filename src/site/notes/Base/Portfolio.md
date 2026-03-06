@@ -44,7 +44,7 @@ Extrait de code
 
 N'hésitez pas à me contacter pour échanger sur la cybersécurité ou pour une opportunité professionnelle.
 
-- 💼 **LinkedIn :** [Lien vers votre profil]
+- 💼 **LinkedIn :** 
     
 - 💻 **GitHub :** [https://github.com/Diasbof]
     
