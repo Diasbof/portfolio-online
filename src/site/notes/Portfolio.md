@@ -24,7 +24,7 @@ Extrait de code
 
 | File                                                                                                | État    | Date           | Stack Technique                                                              |
 | --------------------------------------------------------------------------------------------------- | ------- | -------------- | ---------------------------------------------------------------------------- |
-| [[Pentest Active Directory - Occitanie-IT\|Pentest Active Directory - Occitanie-IT]]             | Terminé | May 15, 2024   | \-                                                                           |
+| [[Pentest Active Directory - Occitanie-IT\|Pentest Active Directory - Occitanie-IT]]             | Terminé | May 15, 2024   | Kali Linux, Active Directory, Nmap, Responder, Impacket, Hashcat             |
 | [[Architecture et Securisation Active Directory\|Architecture et Securisation Active Directory]] | Terminé | April 15, 2024 | Windows Server, Ubuntu, Active Directory, GPO, PingCastle, Wazuh, VirusTotal |
 
 { .block-language-dataview}
