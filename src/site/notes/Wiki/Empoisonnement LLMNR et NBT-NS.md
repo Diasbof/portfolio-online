@@ -3,7 +3,7 @@
 ---
 
 
-# 🕵️‍♂️ Accès Initial : Empoisonnement LLMNR & NBT-NS
+# Accès Initial : Empoisonnement LLMNR & NBT-NS
 
 > [!abstract] Le concept de base
 > **LLMNR** (Link-Local Multicast Name Resolution) et **NBT-NS** (NetBIOS Name Service) sont des protocoles de résolution de noms obsolètes. Ils servent de solution de secours lorsqu'un serveur DNS classique ne parvient pas à trouver l'adresse IP correspondant à un nom de machine. Lorsqu'un utilisateur cherche un serveur inexistant ou tape mal un nom, son ordinateur va "crier" (requête broadcast) sa demande à tout le réseau local.

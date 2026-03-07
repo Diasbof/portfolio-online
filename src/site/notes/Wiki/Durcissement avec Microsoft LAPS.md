@@ -3,7 +3,7 @@
 ---
 
 
-# 🧱 Durcissement : Déploiement de Microsoft LAPS
+#  Durcissement : Déploiement de Microsoft LAPS
 
 > [!info] Concept de base **LAPS** (Local Administrator Password Solution) est un outil gratuit fourni par Microsoft. Son rôle est de générer automatiquement un mot de passe aléatoire, complexe et unique pour le compte Administrateur local de chaque poste de travail ou serveur membre du domaine. Ce mot de passe est ensuite stocké de manière sécurisée directement dans un attribut caché de l'Active Directory.
 
@@ -41,7 +41,7 @@ Une fois le schéma mis à jour et l'extension client déployée, j'ai configur�
     
 - **Sécurité :** Configuration de mots de passe longs (14 caractères minimum) avec une rotation automatique définie.
 
-## 💡 L'avantage opérationnel
+##  L'avantage opérationnel
 
 Désormais, si un technicien du support informatique doit intervenir sur une machine spécifique, il interroge l'Active Directory pour récupérer le mot de passe unique de _cette_ machine précise. Si la machine venait à être compromise, l'attaquant resterait bloqué et ne pourrait pas propager son attaque aux autres postes de l'entreprise.
 

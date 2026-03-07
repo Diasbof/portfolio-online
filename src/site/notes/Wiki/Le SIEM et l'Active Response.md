@@ -3,7 +3,7 @@
 ---
 
 
-# 👁️ Détection et Supervision : SIEM & Active Response
+#  Détection et Supervision : SIEM & Active Response
 
 > [!abstract] Concept de base
 > Un **SIEM** (Security Information and Event Management) est le véritable "cerveau" de la cyberdéfense d'une entreprise. Il collecte, centralise et corrèle en temps réel les journaux d'événements (logs) de tous les équipements du réseau pour détecter des comportements malveillants. L'**Active Response** est sa capacité à réagir de manière autonome et automatique face à une menace confirmée, avant même l'intervention d'un administrateur humain.[1]

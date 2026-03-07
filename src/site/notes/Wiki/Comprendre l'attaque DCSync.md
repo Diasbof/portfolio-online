@@ -3,7 +3,7 @@
 ---
 
 
-# 👑 Post-Exploitation : L'attaque DCSync
+# Post-Exploitation : L'attaque DCSync
 
 > [!abstract] Le concept de base
 > **DCSync** n'est pas une vulnérabilité logicielle (un bug), mais l'exploitation malveillante d'une fonctionnalité légitime de Microsoft. Dans un environnement Active Directory, les Contrôleurs de Domaine (DC) doivent constamment se synchroniser entre eux pour partager les mots de passe et les configurations. L'attaque DCSync consiste à se faire passer pour un Contrôleur de Domaine afin de demander poliment au serveur principal de nous envoyer tous les secrets de l'annuaire.
@@ -21,7 +21,7 @@ Lors de mon audit d'infrastructure (Pentest), une fois les droits d'Administrate
 - **Le résultat :** Le serveur cible est persuadé de parler à un autre serveur légitime et transmet l'intégralité du fichier **NTDS.dit** (le cœur de l'Active Directory).[1]
 - **L'impact critique :** L'attaquant récupère le hachage NTLM du compte `krbtgt` (le compte de service de distribution des clés). Avec ce hash, il est possible de forger des *Golden Tickets*, offrant un accès persistant et indétectable au domaine, même si le mot de passe de l'administrateur est changé.
 
-## 🛡️ Comment détecter et bloquer DCSync? (Blue Team)
+##  Comment détecter et bloquer DCSync? (Blue Team)
 Puisqu'il s'agit d'une fonctionnalité légitime et nécessaire au bon fonctionnement d'un réseau multi-serveurs, **on ne peut pas simplement désactiver la réplication**. 
 
 La stratégie de défense repose entièrement sur la **gouvernance des droits** et la **détection** :

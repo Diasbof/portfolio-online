@@ -2,15 +2,15 @@
 {"dg-publish":true,"permalink":"/base/architecture-et-securisation-active-directory/"}
 ---
 
-# 🛡️ Architecture, Durcissement et Supervision d'Infrastructure (SIEM) : Occitanie-IT
+#  Architecture, Durcissement et Supervision d'Infrastructure (SIEM) : Occitanie-IT
 
-## 📋 1. Contexte du Projet et Enjeux
+## 1. Contexte du Projet et Enjeux
 
 Prélude de mon intervention offensive (Pentest), ce projet de "Blue Teaming" a consisté à bâtir, auditer et sécuriser de l'intérieur l'infrastructure de la PME **Occitanie-IT**.
 
 Suite à une forte croissance de l'entreprise, le système d'information central, basé sur Windows Server 2022 et Active Directory, avait accumulé une dette technique dangereuse. L'objectif de ma mission, réalisée en approche "White-Box" (avec accès administrateur), était d'identifier les vulnérabilités structurelles, de durcir le système via les GPO, et de déployer une supervision proactive.
 
-## 🔍 2. Phase 1 : Audit Interne et Cartographie (PingCastle)
+## 2. Phase 1 : Audit Interne et Cartographie (PingCastle)
 
 Avant toute modification, j'ai procédé à un état des lieux complet de l'Active Directory à l'aide de l'outil **PingCastle**. Le rapport initial a révélé un score de risque critique de **57/100** dû à des configurations "par défaut" :
 
@@ -21,7 +21,7 @@ Avant toute modification, j'ai procédé à un état des lieux complet de l'Acti
 - **Surface d'attaque :** Service "Spouleur d'impression" actif sur le Contrôleur de Domaine (vulnérabilité PrintNightmare).
     
 
-## 🧱 3. Phase 2 : Plan de Remédiation et Durcissement (Hardening)
+## 3. Phase 2 : Plan de Remédiation et Durcissement (Hardening)
 
 Pour réduire drastiquement la surface d'attaque sans impacter la production, j'ai modélisé et déployé une architecture de sécurité stricte via les **Stratégies de Groupe (GPO)** en m'appuyant sur les guides d'hygiène de l'ANSSI :
 
@@ -32,7 +32,7 @@ Pour réduire drastiquement la surface d'attaque sans impacter la production, j'
 - **Résilience :** Activation de la Corbeille Active Directory (Recycle Bin) pour prévenir les suppressions accidentelles ou malveillantes.
     
 
-## 👁️ 4. Phase 3 : Déploiement du SIEM et Supervision (Wazuh & VirusTotal)
+## 4. Phase 3 : Déploiement du SIEM et Supervision (Wazuh & VirusTotal)
 
 Un système durci reste "aveugle" s'il n'est pas surveillé. J'ai donc conçu et déployé un serveur de supervision sous **Ubuntu Server** hébergeant la solution SIEM **Wazuh**.
 
@@ -69,6 +69,6 @@ XML
 
 Pour la qualification en temps réel des fichiers malveillants, l'API de VirusTotal a été intégrée au Manager. Le système a été testé avec succès via le dépôt d'une charge virale inoffensive (EICAR), immédiatement classifiée comme malveillante par le Dashboard.
 
-## 💡 5. Bilan du Projet
+## 5. Bilan du Projet
 
 Ce projet complet m'a permis d'assimiler la méthodologie de sécurisation globale d'un Système d'Information : **Auditer, Durcir, Surveiller**. Nous sommes passés d'une infrastructure "muette" et vulnérable à une architecture résiliente, capable d'identifier les failles, de réagir de manière autonome aux menaces (IPS) et d'offrir une véritable visibilité aux équipes d'administration.
